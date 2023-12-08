@@ -22,7 +22,7 @@ const apiUrl = 'https://main--poc--teknopointproject.hlx.page/data.json';
 
 
 
-fetch(encodeURIComponent(proxyUrl+apiUrl))
+fetch(proxyUrl + encodeURIComponent(apiUrl))
   .then(response => response.json())
   .then(data => {
     var div = document.createElement('div');
