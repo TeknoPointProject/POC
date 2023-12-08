@@ -16,13 +16,13 @@ export default function decorate(block) {
   block.textContent = '';
   block.append(ul);
 }
-// const proxyUrl = 'https://api.allorigins.win/raw?url=';
+const proxyUrl = 'https://api.allorigins.win/raw?url=';
 const apiUrl = 'https://main--poc--teknopointproject.hlx.page/data.json';
 
 
 
 
-fetch(encodeURIComponent(apiUrl))
+fetch(encodeURIComponent(proxyUrl+apiUrl))
   .then(response => response.json())
   .then(data => {
     var div = document.createElement('div');
