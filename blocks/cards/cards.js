@@ -17,7 +17,7 @@ export default function decorate(block) {
   block.append(ul);
 }
 // const proxyUrl = 'https://api.allorigins.win/raw?url=';
-const apiUrl = 'https://main--idfcfirstbank--teknopointproject.hlx.live/data.json';
+const apiUrl = 'https://main--poc--teknopointproject.hlx.page/data.json';
 
 
 
